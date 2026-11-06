@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="TLF Studio — tracé">
+<style>
+rect{fill:transparent;stroke:#FFFFFF;stroke-width:2;stroke-dasharray:240;stroke-dashoffset:240;animation:s .7s ease-out forwards,f .4s ease-out forwards}
+.b1{animation-delay:0s,.6s}.b2{animation-delay:.15s,.75s}.b3{animation-delay:.3s,.9s}
+.b4{animation-delay:.45s,1.05s}.b5{animation-delay:.6s,1.2s}.b6{animation-delay:.75s,1.35s}
+.b7{stroke:#E8562A;animation:s .5s ease-out .9s forwards,fa .4s ease-out 1.5s forwards}
+@keyframes s{to{stroke-dashoffset:0}}
+@keyframes f{to{fill:#FFFFFF}}
+@keyframes fa{to{fill:#E8562A}}
+@media (prefers-reduced-motion:reduce){rect{fill:#FFFFFF;stroke:none}.b7{fill:#E8562A}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+  <rect class="b1" x="10" y="10" width="100" height="16"/>
+  <rect class="b2" x="52" y="26" width="16" height="84"/>
+  <rect class="b3" x="10" y="44" width="16" height="66"/>
+  <rect class="b4" x="26" y="94" width="22" height="16"/>
+  <rect class="b5" x="72" y="44" width="38" height="16"/>
+  <rect class="b6" x="72" y="76" width="26" height="16"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="none"/>
+</svg>

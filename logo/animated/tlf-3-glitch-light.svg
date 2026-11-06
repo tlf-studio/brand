@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="TLF Studio — glitch">
+<style>
+.layer{animation:g 1.6s steps(1,end) forwards}
+.r{fill:#E8562A;mix-blend-mode:multiply;animation:r 1.6s steps(1,end) forwards}
+.c{fill:#2F6DF6;mix-blend-mode:multiply;animation:c 1.6s steps(1,end) forwards}
+.scan{fill:#111111;opacity:.15;animation:sc 1.6s linear forwards}
+@keyframes g{0%{opacity:0}5%{opacity:1}12%{opacity:0}18%{opacity:1}30%{opacity:.4}34%{opacity:1}55%{opacity:1}58%{opacity:.2}62%{opacity:1}100%{opacity:1}}
+@keyframes r{0%{transform:translate(-4px,2px);opacity:1}20%{transform:translate(5px,-3px)}40%{transform:translate(-6px,1px)}60%{transform:translate(3px,3px);opacity:1}80%{transform:translate(-2px,0);opacity:.6}100%{transform:none;opacity:0}}
+@keyframes c{0%{transform:translate(4px,-2px);opacity:1}20%{transform:translate(-5px,3px)}40%{transform:translate(6px,-1px)}60%{transform:translate(-3px,-3px);opacity:1}80%{transform:translate(2px,0);opacity:.6}100%{transform:none;opacity:0}}
+@keyframes sc{0%{transform:translateY(-10px)}100%{transform:translateY(130px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.r,.c,.scan{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<g class="r">
+  <rect class="x1" x="10" y="10" width="100" height="16"/>
+  <rect class="x2" x="52" y="26" width="16" height="84"/>
+  <rect class="x3" x="10" y="44" width="16" height="66"/>
+  <rect class="x4" x="26" y="94" width="22" height="16"/>
+  <rect class="x5" x="72" y="44" width="38" height="16"/>
+  <rect class="x6" x="72" y="76" width="26" height="16"/>
+</g>
+<g class="c">
+  <rect class="y1" x="10" y="10" width="100" height="16"/>
+  <rect class="y2" x="52" y="26" width="16" height="84"/>
+  <rect class="y3" x="10" y="44" width="16" height="66"/>
+  <rect class="y4" x="26" y="94" width="22" height="16"/>
+  <rect class="y5" x="72" y="44" width="38" height="16"/>
+  <rect class="y6" x="72" y="76" width="26" height="16"/>
+</g>
+<g class="layer">
+  <rect class="b1" x="10" y="10" width="100" height="16" fill="#111111"/>
+  <rect class="b2" x="52" y="26" width="16" height="84" fill="#111111"/>
+  <rect class="b3" x="10" y="44" width="16" height="66" fill="#111111"/>
+  <rect class="b4" x="26" y="94" width="22" height="16" fill="#111111"/>
+  <rect class="b5" x="72" y="44" width="38" height="16" fill="#111111"/>
+  <rect class="b6" x="72" y="76" width="26" height="16" fill="#111111"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="#E8562A"/>
+</g>
+<rect class="scan" x="0" y="0" width="120" height="6"/>
+</svg>

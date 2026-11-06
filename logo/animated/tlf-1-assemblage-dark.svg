@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="TLF Studio — assemblage">
+<style>
+rect{opacity:0;animation:d .55s cubic-bezier(.2,.8,.2,1) forwards}
+.b1{animation-delay:0s;--x:0;--y:-24px}.b2{animation-delay:.18s;--x:0;--y:24px}
+.b3{animation-delay:.32s;--x:-24px;--y:0}.b4{animation-delay:.46s;--x:-24px;--y:24px}
+.b5{animation-delay:.6s;--x:24px;--y:0}.b6{animation-delay:.74s;--x:24px;--y:0}
+.b7{animation:p .7s cubic-bezier(.34,1.56,.64,1) .95s forwards;transform-origin:102px 102px}
+@keyframes d{from{opacity:0;transform:translate(var(--x),var(--y))}to{opacity:1;transform:none}}
+@keyframes p{0%{opacity:0;transform:scale(0)}60%{opacity:1;transform:scale(1.25)}100%{opacity:1;transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+  <rect class="b1" x="10" y="10" width="100" height="16" fill="#FFFFFF"/>
+  <rect class="b2" x="52" y="26" width="16" height="84" fill="#FFFFFF"/>
+  <rect class="b3" x="10" y="44" width="16" height="66" fill="#FFFFFF"/>
+  <rect class="b4" x="26" y="94" width="22" height="16" fill="#FFFFFF"/>
+  <rect class="b5" x="72" y="44" width="38" height="16" fill="#FFFFFF"/>
+  <rect class="b6" x="72" y="76" width="26" height="16" fill="#FFFFFF"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="#E8562A"/>
+</svg>

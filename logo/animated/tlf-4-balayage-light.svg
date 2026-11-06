@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="TLF Studio — balayage">
+<style>
+.m{animation:w 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes w{from{height:0}to{height:120px}}
+.line{stroke:#E8562A;stroke-width:1.5;animation:l 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes l{from{transform:translateY(0)}to{transform:translateY(120px)}}
+.lg{animation:fd .3s 1.4s forwards}
+@keyframes fd{to{opacity:0}}
+@media (prefers-reduced-motion:reduce){.m{height:120px}.lg{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<defs><clipPath id="clip"><rect class="m" x="0" y="0" width="120" height="0"/></clipPath></defs>
+<g opacity=".12">
+  <rect class="b1" x="10" y="10" width="100" height="16" fill="#111111"/>
+  <rect class="b2" x="52" y="26" width="16" height="84" fill="#111111"/>
+  <rect class="b3" x="10" y="44" width="16" height="66" fill="#111111"/>
+  <rect class="b4" x="26" y="94" width="22" height="16" fill="#111111"/>
+  <rect class="b5" x="72" y="44" width="38" height="16" fill="#111111"/>
+  <rect class="b6" x="72" y="76" width="26" height="16" fill="#111111"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="#E8562A"/>
+</g>
+<g clip-path="url(#clip)">
+  <rect class="b1" x="10" y="10" width="100" height="16" fill="#111111"/>
+  <rect class="b2" x="52" y="26" width="16" height="84" fill="#111111"/>
+  <rect class="b3" x="10" y="44" width="16" height="66" fill="#111111"/>
+  <rect class="b4" x="26" y="94" width="22" height="16" fill="#111111"/>
+  <rect class="b5" x="72" y="44" width="38" height="16" fill="#111111"/>
+  <rect class="b6" x="72" y="76" width="26" height="16" fill="#111111"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="#E8562A"/>
+</g>
+<g class="lg"><line class="line" x1="0" y1="0" x2="120" y2="0"/></g>
+</svg>

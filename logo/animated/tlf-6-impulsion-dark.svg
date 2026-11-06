@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-label="TLF Studio — impulsion">
+<style>
+.b7{animation:pu 1.2s ease-out forwards;transform-origin:102px 102px}
+.ring{fill:none;stroke:#E8562A;stroke-width:2;opacity:0;animation:rg .9s ease-out .25s forwards;transform-origin:102px 102px}
+.ink{opacity:0;animation:in .6s cubic-bezier(.2,.8,.2,1) forwards;transform-origin:102px 102px}
+.b6{animation-delay:.35s}.b5{animation-delay:.5s}.b4{animation-delay:.55s}
+.b2{animation-delay:.65s}.b3{animation-delay:.8s}.b1{animation-delay:.95s}
+@keyframes pu{0%{transform:scale(0)}40%{transform:scale(1.6)}70%{transform:scale(.9)}100%{transform:scale(1)}}
+@keyframes rg{0%{opacity:.8;transform:scale(.2)}100%{opacity:0;transform:scale(9)}}
+@keyframes in{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.ring{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<circle class="ring" cx="102" cy="102" r="10"/>
+  <rect class="ink b1" x="10" y="10" width="100" height="16" fill="#FFFFFF"/>
+  <rect class="ink b2" x="52" y="26" width="16" height="84" fill="#FFFFFF"/>
+  <rect class="ink b3" x="10" y="44" width="16" height="66" fill="#FFFFFF"/>
+  <rect class="ink b4" x="26" y="94" width="22" height="16" fill="#FFFFFF"/>
+  <rect class="ink b5" x="72" y="44" width="38" height="16" fill="#FFFFFF"/>
+  <rect class="ink b6" x="72" y="76" width="26" height="16" fill="#FFFFFF"/>
+  <rect class="b7" x="94" y="94" width="16" height="16" fill="#E8562A"/>
+</svg>
