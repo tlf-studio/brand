@@ -65,10 +65,12 @@ const attr = (s, name) => {
 
 /**
  * Remplace chaque <text> par un <path>. Attributs lus : x, y, font-size, font-weight,
- * letter-spacing (en em), text-anchor, fill, data-label (conservé en aria-label du chemin).
+ * letter-spacing (en em), text-anchor, fill. Le texte d'origine est gardé en data-text.
  */
 export function vectorize(svg) {
-  return svg.replace(/<text\b([^>]*)>([^<]*)<\/text>/g, (_, attrs, content) => {
+  const unescape = (t) => t.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+  return svg.replace(/<text\b([^>]*)>([^<]*)<\/text>/g, (_, attrs, raw) => {
+    const content = unescape(raw);
     const size = Number(attr(attrs, 'font-size'));
     const ls = attr(attrs, 'letter-spacing') || '0';
     const tracking = ls.endsWith('em') ? Number(ls.slice(0, -2)) : Number(ls) / size;
@@ -81,7 +83,7 @@ export function vectorize(svg) {
       anchor: attr(attrs, 'text-anchor') || 'start',
     });
     const fill = attr(attrs, 'fill') || '#111111';
-    return `<path data-text="${content.trim()}" fill="${fill}" d="${d}"/>`;
+    return `<path data-text="${raw.trim()}" fill="${fill}" d="${d}"/>`;
   });
 }
 

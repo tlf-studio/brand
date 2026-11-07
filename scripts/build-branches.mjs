@@ -5,20 +5,13 @@
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { Resvg } from '@resvg/resvg-js';
+import { png } from './lib/render.mjs';
 import { vectorize, stripFontStyles } from './lib/svg-text.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.join(ROOT, 'logo', 'branches', 'src');
 const OUT = path.join(ROOT, 'logo', 'branches');
 
-export function png(svg, width) {
-  const fontFiles = ['Bold', 'Medium'].map((w) => path.join(ROOT, 'fonts', `SpaceGrotesk-${w}.ttf`));
-  return new Resvg(svg, {
-    fitTo: { mode: 'width', value: width },
-    font: { fontFiles, loadSystemFonts: false, defaultFontFamily: 'Space Grotesk' },
-  }).render().asPng();
-}
 
 const built = {};
 for (const file of readdirSync(SRC).filter((f) => f.endsWith('.svg')).sort()) {
