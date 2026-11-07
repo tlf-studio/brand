@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{W}} {{H}}" width="{{W}}" height="{{H}}" role="img" aria-label="{{NOM}} — un mod TLF Studio">
+<!-- Gabarit kit-mod : bannière de description. Rempli par kit-mod/generate.mjs.
+     Fond : visuel du mod (recadré, assombri) ou encre unie. Lockup Mods en coin bas droit.
+     La couleur secondaire ne colore que le filet bas, jamais le monogramme. -->
+<rect width="{{W}}" height="{{H}}" fill="#111111"/>
+{{FOND}}
+<rect y="{{FILET_Y}}" width="{{W}}" height="{{FILET_H}}" fill="{{SECONDAIRE}}"/>
+<text x="{{PAD}}" y="{{TITRE_Y}}" font-family="Space Grotesk" font-weight="700" font-size="{{TITRE_SIZE}}" fill="#FFFFFF">{{NOM}}</text>
+<text x="{{PAD}}" y="{{ACCROCHE_Y}}" font-family="Space Grotesk" font-weight="500" font-size="{{ACCROCHE_SIZE}}" fill="#C8C8C8">{{ACCROCHE}}</text>
+{{LOCKUP}}
+</svg>

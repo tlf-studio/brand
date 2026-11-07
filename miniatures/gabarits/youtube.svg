@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{W}} {{H}}" width="{{W}}" height="{{H}}" role="img" aria-label="{{TITRE}}">
+<!-- Gabarit miniatures : miniature YouTube 1280 × 720 et couverture verticale 1080 × 1920.
+     Fond (image assombrie ou encre), bandeau orange avec le titre court,
+     monogramme ou lockup de branche (version sombre officielle) en coin haut gauche. -->
+<rect width="{{W}}" height="{{H}}" fill="#111111"/>
+{{FOND}}
+<rect x="0" y="{{BANDEAU_Y}}" width="{{BANDEAU_W}}" height="{{BANDEAU_H}}" fill="#E8562A"/>
+{{TITRE_LIGNES}}
+{{MARQUE}}
+</svg>

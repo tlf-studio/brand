@@ -1,0 +1,18 @@
+{
+  "nom": "Lanternes de Givre",
+  "slug": "lanternes-de-givre",
+  "accroche": "Des lanternes qui gèlent l'eau autour d'elles.",
+  "jeu": "Minecraft",
+  "plateformes": ["curseforge", "modrinth", "thunderstore", "lcpdfr", "nexus"],
+  "versions": { "mod": "1.2.0", "jeu": ["1.21.1"], "chargeurs": ["NeoForge", "Forge"] },
+  "statut": "beta",
+  "couleurSecondaire": "#4FA3D9",
+  "visuel": "visuel.png",
+  "icone": "studio",
+  "presentation": "Mod fictif servant d'exemple au kit. Les lanternes de givre transforment l'eau proche en glace et éclairent faiblement les grottes.",
+  "fonctionnalites": ["3 lanternes (fer, cuivre, améthyste)", "Rayon de gel réglable dans la configuration", "Recettes compatibles JEI et EMI"],
+  "installation": ["Installer NeoForge 21.1 ou Forge 52", "Placer le fichier .jar dans le dossier mods", "Lancer le jeu"],
+  "compatibilite": ["Compatible serveur et solo", "Incompatible avec les mods qui remplacent le rendu de l'eau"],
+  "liens": { "site": "https://tlfstudio.fr", "discord": "<lien Discord>", "kofi": "<lien Ko-fi>" },
+  "credits": ["Code et textures : talfa (TLF Studio)"]
+}

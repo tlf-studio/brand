@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="TLF Studio — Jeux">
+<!--
+  Avatar à pastille TLF Studio — 512 × 512, base identique à tlf-avatar.svg (fond #111111, rx 96).
+  Monogramme remonté de 10 px : translate(106 96) scale(2.5), il occupe y 121 → 371.
+  Bandeau #E8562A de y 420 à 512, découpé par la forme de l'avatar (clipPath) pour suivre les coins.
+  Libellé : capitales de 40 px, soit la taille du carré accent à l'échelle 2,5 (16 × 2,5) ;
+  corps 40 / 0,7 = 57,143 px. Centré dans le bandeau : capitales de 446 à 486, ligne de base 486.
+  Centrage horizontal sur l'encre des lettres, espacement final exclu.
+  Sous 64 px, utiliser tlf-avatar.svg sans pastille : le libellé n'est plus lisible.
+-->
+<defs><clipPath id="tlf-avatar-jeux-forme"><rect width="512" height="512" rx="96"/></clipPath></defs>
+<rect width="512" height="512" rx="96" fill="#111111"/>
+<rect y="420" width="512" height="92" fill="#E8562A" clip-path="url(#tlf-avatar-jeux-forme)"/>
+<g transform="translate(106 96) scale(2.5)"><rect x="10" y="10" width="100" height="16" fill="#FFFFFF"/><rect x="52" y="26" width="16" height="84" fill="#FFFFFF"/><rect x="10" y="44" width="16" height="66" fill="#FFFFFF"/><rect x="26" y="94" width="22" height="16" fill="#FFFFFF"/><rect x="72" y="44" width="38" height="16" fill="#FFFFFF"/><rect x="72" y="76" width="26" height="16" fill="#FFFFFF"/><rect x="94" y="94" width="16" height="16" fill="#E8562A"/></g>
+<path data-text="JEUX" fill="#111111" d="M176.97 486.80L176.97 486.80Q170.80 486.80 167.17 483.43Q163.54 480.06 163.54 474.00L163.54 474.00L163.54 470.23L171.09 470.23L171.09 474.00Q171.09 476.69 172.57 478.20Q174.06 479.71 176.74 479.71L176.74 479.71Q179.26 479.71 180.66 478.23Q182.06 476.74 182.06 474.00L182.06 474.00L182.06 452.86L175.20 452.86L175.20 446.00L194.17 446.00L194.17 452.86L189.60 452.86L189.60 474.00Q189.60 480.23 186.23 483.51Q182.86 486.80 176.97 486.80ZM241.83 486L215.77 486L215.77 446.00L241.49 446.00L241.49 452.86L223.31 452.86L223.31 462.40L239.89 462.40L239.89 469.26L223.31 469.26L223.31 479.14L241.83 479.14L241.83 486ZM278.29 486.80L278.29 486.80Q273.37 486.80 269.86 485.00Q266.34 483.20 264.49 479.86Q262.63 476.51 262.63 471.94L262.63 471.94L262.63 446.00L270.17 446.00L270.17 472.17Q270.17 475.83 272.26 477.94Q274.34 480.06 278.29 480.06L278.29 480.06Q282.23 480.06 284.31 477.94Q286.40 475.83 286.40 472.17L286.40 472.17L286.40 446.00L293.94 446.00L293.94 471.94Q293.94 476.51 292.09 479.86Q290.23 483.20 286.71 485.00Q283.20 486.80 278.29 486.80ZM322.74 486L314.17 486L325.89 465.83L314.29 446.00L322.86 446.00L330.80 460.46L331.83 460.46L339.77 446.00L348.34 446.00L336.74 465.83L348.46 486L339.89 486L331.83 471.20L330.80 471.20L322.74 486Z"/>
+</svg>

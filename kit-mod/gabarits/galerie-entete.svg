@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{W}} {{H}}" width="{{W}}" height="{{H}}" role="img" aria-label="{{SECTION}} — {{NOM}}">
+<!-- Gabarit kit-mod : en-tête de galerie (première image ou image de section).
+     Libellé de section en capitales espacées, nom du mod, monogramme en coin haut droit. -->
+<rect width="{{W}}" height="{{H}}" fill="#111111"/>
+{{FOND}}
+<rect x="{{PAD}}" y="{{BARRE_Y}}" width="{{BARRE_W}}" height="{{BARRE_H}}" fill="#E8562A"/>
+<text x="{{PAD}}" y="{{SECTION_Y}}" font-family="Space Grotesk" font-weight="500" font-size="{{SECTION_SIZE}}" letter-spacing="0.3em" fill="{{SECONDAIRE_TEXTE}}">{{SECTION}}</text>
+<text x="{{PAD}}" y="{{TITRE_Y}}" font-family="Space Grotesk" font-weight="700" font-size="{{TITRE_SIZE}}" fill="#FFFFFF">{{NOM}}</text>
+{{MONOGRAMME}}
+</svg>

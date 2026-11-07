@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="{{NOM}}">
+<!-- Gabarit kit-mod : icône carrée, mode « visuel ». Visuel du mod en plein cadre,
+     monogramme sombre officiel (tlf-avatar.svg) en coin bas droit, 112 px, marge 24 px.
+     En mode « studio », generate.mjs utilise directement logo/branches/tlf-avatar-mods.svg. -->
+<defs><clipPath id="icone-forme"><rect width="512" height="512" rx="96"/></clipPath></defs>
+<g clip-path="url(#icone-forme)">
+<rect width="512" height="512" fill="#111111"/>
+{{FOND}}
+</g>
+{{MONOGRAMME}}
+</svg>

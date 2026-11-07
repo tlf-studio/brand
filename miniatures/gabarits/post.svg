@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Build in public — TLF Studio">
+<!-- Gabarit miniatures : post Bluesky / X « build in public », 1600 × 900.
+     Capture encadrée à gauche, légende à droite, petit monogramme en bas à droite.
+     Mode anonyme : capture floutée ou recadrée, et aucun champ pour le nom du projet. -->
+<rect width="1600" height="900" fill="#F4F4F2"/>
+<defs><clipPath id="post-capture"><rect x="64" y="64" width="1000" height="772" rx="16"/></clipPath>{{FILTRES}}</defs>
+<rect x="64" y="64" width="1000" height="772" rx="16" fill="#111111"/>
+<g clip-path="url(#post-capture)">{{CAPTURE}}</g>
+<rect x="64.5" y="64.5" width="999" height="771" rx="15.5" fill="none" stroke="#E0E0DC"/>
+<text x="1120" y="132" font-family="Space Grotesk" font-weight="500" font-size="18" letter-spacing="0.3em" fill="#E8562A">BUILD IN PUBLIC</text>
+{{SURTITRE}}
+{{LEGENDE_LIGNES}}
+<text x="1120" y="820" font-family="Space Grotesk" font-weight="500" font-size="18" fill="#6B6B6B">{{DATE}}</text>
+{{MONOGRAMME}}
+</svg>

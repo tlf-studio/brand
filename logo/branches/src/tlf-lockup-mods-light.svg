@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120" role="img" aria-label="TLF Studio — Mods">
+<!--
+  Lockup « libellé de branche » TLF Studio — grille 300 × 120.
+  Monogramme intact (0 à 120), filet de 2 unités centré sur x = 132 (y 10 → 110), texte à x = 152.
+  Ajustement fin :
+  - Space Grotesk a une hauteur de capitales de 700/1000 em. Pour que les capitales de la ligne 1
+    mesurent 16 unités, comme la barre du T (y 10 → 26), le corps vaut 16 / 0,7 = 22,857 unités.
+  - Ligne 2 : même hauteur de capitales (16 unités). Pour que son bas s'aligne sur le bas du carré
+    accent (y = 110), sa ligne de base passe de 88 à 110 : les capitales occupent alors exactement
+    la bande du carré accent (y 94 → 110). Les lettres rondes (J, U, S, O) débordent de 0,3 unité
+    sous la ligne de base, c'est le dépassement optique normal de la police.
+  - Ligne 1 : ligne de base conservée à y = 54 (capitales de 38 à 54).
+-->
+<style>@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=block');</style>
+<g><rect x="10" y="10" width="100" height="16" fill="#111111"/><rect x="52" y="26" width="16" height="84" fill="#111111"/><rect x="10" y="44" width="16" height="66" fill="#111111"/><rect x="26" y="94" width="22" height="16" fill="#111111"/><rect x="72" y="44" width="38" height="16" fill="#111111"/><rect x="72" y="76" width="26" height="16" fill="#111111"/><rect x="94" y="94" width="16" height="16" fill="#E8562A"/></g>
+<rect x="131" y="10" width="2" height="100" fill="#E0E0DC"/>
+<text x="152" y="54" font-family="Space Grotesk" font-weight="700" font-size="22.8571" fill="#111111">STUDIO</text>
+<text x="152" y="110" font-family="Space Grotesk" font-weight="500" font-size="22.8571" letter-spacing="0.3em" fill="#E8562A">MODS</text>
+</svg>

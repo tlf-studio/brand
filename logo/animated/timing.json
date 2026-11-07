@@ -1,0 +1,9 @@
+{
+  "_doc": "pose : instant (s) où le carré accent finit son dernier mouvement, lu dans le CSS de chaque SVG. fin : instant où toute l'animation est terminée. Les variantes clair et sombre ont le même minutage.",
+  "1-assemblage": { "pose": 1.65, "fin": 1.65, "source": ".b7 : animation p 0.7s, délai 0.95s → 0.95 + 0.7" },
+  "2-trace": { "pose": 1.9, "fin": 1.9, "source": ".b7 : tracé s 0.5s à 0.9s, puis remplissage fa 0.4s à 1.5s → 1.5 + 0.4" },
+  "3-glitch": { "pose": 0.992, "fin": 1.6, "source": ".layer (contient .b7) : g 1.6s steps(1,end), dernier saut d'opacité à 62 % → 0.62 × 1.6 ; les calques .r/.c s'éteignent à 1.6" },
+  "4-balayage": { "pose": 0.596, "fin": 1.7, "source": "le clipPath .m (w 1.4s, cubic-bezier(.2,.8,.2,1)) atteint y = 110, bas du carré, à 42,6 % du temps → 0.426 × 1.4 ; ligne lg effacée à 1.4 + 0.3" },
+  "5-chute": { "pose": 1.65, "fin": 1.65, "source": ".b7 : chute f 0.9s, délai 0.75s → 0.75 + 0.9" },
+  "6-impulsion": { "pose": 1.2, "fin": 1.55, "source": ".b7 : pu 1.2s sans délai ; dernier bloc .b1 : in 0.6s, délai 0.95s → 1.55" }
+}

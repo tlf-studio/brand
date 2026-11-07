@@ -1,0 +1,11 @@
+{
+  "full": {
+    "impactNom": 1.595,
+    "impactCarre": 2.615
+  },
+  "short": {
+    "impact": 0.6,
+    "duree": 1.8,
+    "debutDansFull": 2.015
+  }
+}

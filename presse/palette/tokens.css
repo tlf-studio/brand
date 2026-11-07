@@ -1,0 +1,2 @@
+:root{--tlf-ink:#111111;--tlf-accent:#E8562A;--tlf-bg:#F4F4F2;--tlf-white:#FFFFFF;--tlf-muted:#6B6B6B;--tlf-body:#4A4A4A;--tlf-line:#E0E0DC;--tlf-font:'Space Grotesk',system-ui,sans-serif;--tlf-radius:8px;--tlf-radius-card:12px}
+@media (prefers-color-scheme:dark){:root{--tlf-bg:#111111;--tlf-ink:#FFFFFF;--tlf-white:#1C1C1C;--tlf-muted:#A0A0A0;--tlf-body:#C8C8C8;--tlf-line:#2A2A2A}}

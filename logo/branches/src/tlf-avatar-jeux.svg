@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="TLF Studio — Jeux">
+<!--
+  Avatar à pastille TLF Studio — 512 × 512, base identique à tlf-avatar.svg (fond #111111, rx 96).
+  Monogramme remonté de 10 px : translate(106 96) scale(2.5), il occupe y 121 → 371.
+  Bandeau #E8562A de y 420 à 512, découpé par la forme de l'avatar (clipPath) pour suivre les coins.
+  Libellé : capitales de 40 px, soit la taille du carré accent à l'échelle 2,5 (16 × 2,5) ;
+  corps 40 / 0,7 = 57,143 px. Centré dans le bandeau : capitales de 446 à 486, ligne de base 486.
+  Centrage horizontal sur l'encre des lettres, espacement final exclu.
+  Sous 64 px, utiliser tlf-avatar.svg sans pastille : le libellé n'est plus lisible.
+-->
+<style>@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=block');</style>
+<defs><clipPath id="tlf-avatar-jeux-forme"><rect width="512" height="512" rx="96"/></clipPath></defs>
+<rect width="512" height="512" rx="96" fill="#111111"/>
+<rect y="420" width="512" height="92" fill="#E8562A" clip-path="url(#tlf-avatar-jeux-forme)"/>
+<g transform="translate(106 96) scale(2.5)"><rect x="10" y="10" width="100" height="16" fill="#FFFFFF"/><rect x="52" y="26" width="16" height="84" fill="#FFFFFF"/><rect x="10" y="44" width="16" height="66" fill="#FFFFFF"/><rect x="26" y="94" width="22" height="16" fill="#FFFFFF"/><rect x="72" y="44" width="38" height="16" fill="#FFFFFF"/><rect x="72" y="76" width="26" height="16" fill="#FFFFFF"/><rect x="94" y="94" width="16" height="16" fill="#E8562A"/></g>
+<text x="256" y="486" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="57.1429" letter-spacing="0.27em" fill="#111111">JEUX</text>
+</svg>
