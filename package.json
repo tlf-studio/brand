@@ -1,6 +1,7 @@
 {
   "name": "@tlf-studio/brand",
   "private": true,
+  "version": "1.0.0",
   "description": "Identité visuelle de TLF Studio : logos, déclinaisons, ident, kits.",
   "type": "module",
   "scripts": {
