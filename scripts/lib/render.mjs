@@ -84,3 +84,20 @@ export function wrap(text, maxWidth, { size, weight = 500, tracking = 0, maxLine
 }
 
 export const isHex = (c) => /^#[0-9A-Fa-f]{6}$/.test(c);
+
+/** Dimensions d'une image PNG ou JPEG, lues dans l'en-tête. */
+export function imageSize(file) {
+  const b = readFileSync(file);
+  if (b.readUInt32BE(0) === 0x89504e47) return { width: b.readUInt32BE(16), height: b.readUInt32BE(20) };
+  if (b[0] === 0xff && b[1] === 0xd8) {
+    let i = 2;
+    while (i < b.length) {
+      const marker = b[i + 1];
+      const len = b.readUInt16BE(i + 2);
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))
+        return { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) };
+      i += 2 + len;
+    }
+  }
+  throw new Error(`Dimensions illisibles : ${file}`);
+}
