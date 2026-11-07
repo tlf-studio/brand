@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build:branches": "node scripts/build-branches.mjs",
-    "cut:ident": "bash scripts/cut-ident.sh 2.02 3.82 2.62",
+    "analyse:ident": "node scripts/analyse-ident.mjs",
+    "cut:ident": "bash scripts/cut-ident.sh 2.015 3.815 2.615",
     "export:animations": "node scripts/export-animations.mjs",
     "export:release": "node scripts/export-animations.mjs && node scripts/release-exports.mjs",
     "kit:mod": "node kit-mod/generate.mjs",
