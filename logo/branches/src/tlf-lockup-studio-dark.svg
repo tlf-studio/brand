@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120" role="img" aria-label="TLF Studio">
+<!--
+  Lockup neutre TLF Studio — grille 300 × 120. Ligne 1 seule, capitales de 16 unités
+  (corps 16 / 0,7 = 22,857), centrées verticalement sur le monogramme : y 52 → 68, ligne de base 68.
+-->
+<style>@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=block');</style>
+<g><rect x="10" y="10" width="100" height="16" fill="#FFFFFF"/><rect x="52" y="26" width="16" height="84" fill="#FFFFFF"/><rect x="10" y="44" width="16" height="66" fill="#FFFFFF"/><rect x="26" y="94" width="22" height="16" fill="#FFFFFF"/><rect x="72" y="44" width="38" height="16" fill="#FFFFFF"/><rect x="72" y="76" width="26" height="16" fill="#FFFFFF"/><rect x="94" y="94" width="16" height="16" fill="#E8562A"/></g>
+<rect x="131" y="10" width="2" height="100" fill="#2A2A2A"/>
+<text x="152" y="68" font-family="Space Grotesk" font-weight="700" font-size="22.8571" fill="#FFFFFF">STUDIO</text>
+</svg>
