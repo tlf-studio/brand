@@ -1,0 +1,21 @@
+{
+  "name": "@tlf-studio/brand",
+  "private": true,
+  "description": "Identité visuelle de TLF Studio : logos, déclinaisons, ident, kits.",
+  "type": "module",
+  "scripts": {
+    "build:branches": "node scripts/build-branches.mjs",
+    "cut:ident": "bash scripts/cut-ident.sh 2.02 3.82 2.62",
+    "export:animations": "node scripts/export-animations.mjs",
+    "export:release": "node scripts/export-animations.mjs && node scripts/release-exports.mjs",
+    "kit:mod": "node kit-mod/generate.mjs",
+    "miniatures": "node miniatures/generate.mjs",
+    "build:presse": "node scripts/build-presse.mjs",
+    "sync:presse": "node scripts/sync-presse.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "opentype.js": "^1.3.4",
+    "playwright": "^1.64.1"
+  }
+}
