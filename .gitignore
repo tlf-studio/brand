@@ -2,3 +2,5 @@ node_modules/
 exports/
 .DS_Store
 Thumbs.db
+kit-mod/sortie/
+miniatures/sortie/

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{W}} 40" width="{{W}}" height="40" role="img" aria-label="{{LIBELLE}} : {{VALEUR}}">
+<!-- Gabarit kit-mod : badge. Libellé en capitales espacées sur encre, valeur sur la couleur du badge.
+     Couleurs de valeur : version et jeu en encre claire, chargeur en surface, statut selon l'état. -->
+<defs><clipPath id="badge-forme-{{ID}}"><rect width="{{W}}" height="40" rx="8"/></clipPath></defs>
+<g clip-path="url(#badge-forme-{{ID}})">
+<rect width="{{GAUCHE_W}}" height="40" fill="#111111"/>
+<rect x="{{GAUCHE_W}}" width="{{DROITE_W}}" height="40" fill="{{FOND_VALEUR}}"/>
+</g>
+<text x="14" y="25" font-family="Space Grotesk" font-weight="500" font-size="12" letter-spacing="0.2em" fill="#A0A0A0">{{LIBELLE}}</text>
+<text x="{{VALEUR_X}}" y="26" font-family="Space Grotesk" font-weight="700" font-size="15" fill="{{TEXTE_VALEUR}}">{{VALEUR}}</text>
+</svg>
